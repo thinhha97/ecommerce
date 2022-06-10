@@ -248,6 +248,7 @@ span.text-red {
   left: 8%; */
   top: -25%;
   left: 25%;
+  max-height: 120%;
 }
 .banner-desc .right {
   line-height: 1.4;

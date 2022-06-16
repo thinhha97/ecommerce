@@ -25,10 +25,10 @@ const HeroBanner = ({
           <Link href={`product/${product}`}>
             <button type="button">{buttonText}</button>
           </Link>
-          <div className="desc">
+          {/* <div className="desc">
             <h5>Description</h5>
             <p>{desc}</p>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

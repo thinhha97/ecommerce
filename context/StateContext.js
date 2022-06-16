@@ -33,6 +33,7 @@ export const StateContext = ({ children }) => {
       product.quantity = quantity
       setCartItems([...cartItems, { ...product }])
     }
+    setQty(1)
     toast.success(
       `${qty} sản phẩm "${product.name}"  đã được thêm vào giỏ hàng!`,
       { duration: 2500 }

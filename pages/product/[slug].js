@@ -63,9 +63,7 @@ const ProductDetails = ({ products, product }) => {
               <span className="minus" onClick={decreaseQty}>
                 <AiOutlineMinus />
               </span>
-              <span className="num">
-                {qty}
-              </span>
+              <span className="num">{qty}</span>
               <span className="plus" onClick={increaseQty}>
                 <AiOutlinePlus />
               </span>
@@ -88,7 +86,7 @@ const ProductDetails = ({ products, product }) => {
         </div>
       </div>
       <div className="maylike-products-wrapper">
-        <h2>Sản phẩm tương tự</h2>
+        <h2>Có thể bạn sẽ thích</h2>
         <div className="marquee">
           <div className="maylike-products-container track">
             {products.map((item) => (
